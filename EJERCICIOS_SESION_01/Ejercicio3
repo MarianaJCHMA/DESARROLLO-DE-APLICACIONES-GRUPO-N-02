@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Correo Electrónico Premium</title>
+
+    <!--Open Graph-->
+    <meta name="viewport" content="Correo Electrónico Premium - Servicio Seguro y Rápido">
+    <meta name="author" content="Alex">
+    <meta name="description" content="Disfruta de un servicio de correo electrónico seguro, rápido y confiable con almacenamiento ilimitado y protección avanzada contra spam.">
+    <link rel="shortcut icon" href="https://ucsm.com/correo-electronico-premium">
+    <link rel="shortcut icon" href="imagen.png" type="imagen/x-icon"> 
+
+    <!--Twitter Cards-->
+    <meta name="author" content="Alex">
+    <meta name="twitter:title" content="Correo Electrónico Premium">
+    <meta name="twitter:description" content="Obtén el mejor servicio de correo electrónico con protección contra virus, almacenamiento ilimitado y más.">
+    <link rel="twitter:image" href="imagen.png" type="imagen/x-icon"> 
+    <link rel="twitter:url" href="https://ucsm.com/correo-electronico-premium">
+
+    
+    <!--Estilos básicos-->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: hwb(196 71% 0%); /*fondo*/
+            color: hsl(185, 28%, 37%);
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #0056b3;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center; /* Centrar la imagen */
+            align-items: center;
+            background-color: rgba(255, 255, 255, 0); /* Fondo transparente */
+            padding: 20px 0;
+        }
+
+        .image-container img {
+            max-width: 50%;
+            height: auto;
+            background-color: transparent;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0056b3;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .cta-button:hover {
+            background-color: #004a99;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Título del producto -->
+        <h1>Correo Electrónico Premium</h1>
+        <div class="image-container">
+            <img src="CORREO.png" alt="Correo Electrónico Premium">
+        </div>
+        <!-- Descripción del producto -->
+        <p>
+            El servicio de <strong>Correo Electrónico Premium</strong> te ofrece una solución segura, rápida y eficiente para gestionar tus correos. 
+            Con protección avanzada contra el spam, almacenamiento ilimitado y una interfaz amigable, es ideal tanto para uso personal como profesional.
+        </p>
+        <a href="https://ucsm.com/comprar" class="cta-button">Contratar ahora</a>
+
+        <!-- Especificaciones técnicas en tabla -->
+        <h2>Especificaciones Técnicas</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Característica</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Almacenamiento</td>
+                    <td>Almacenamiento ilimitado en la nube para correos y archivos adjuntos</td>
+                </tr>
+                <tr>
+                    <td>Protección contra Spam</td>
+                    <td>Filtrado avanzado contra spam y virus</td>
+                </tr>
+                <tr>
+                    <td>Seguridad</td>
+                    <td>Encriptación de extremo a extremo para mantener la privacidad de tus mensajes</td>
+                </tr>
+                <tr>
+                    <td>Compatibilidad</td>
+                    <td>Compatible con dispositivos móviles, tabletas y PCs</td>
+                </tr>
+                <tr>
+                    <td>Soporte</td>
+                    <td>Soporte técnico 24/7</td>
+                </tr>
+                <tr>
+                    <td>Integraciones</td>
+                    <td>Integración con calendarios, contactos y otras aplicaciones de productividad</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Beneficios adicionales -->
+        <h2>Beneficios</h2>
+        <ul>
+            <li>Interfaz fácil de usar</li>
+            <li>Sin anuncios molestos</li>
+            <li>Aplicaciones móviles para Android e iOS</li>
+            <li>Acceso a tus correos desde cualquier lugar del mundo</li>
+        </ul>
+
+        <!-- Otra llamada a la acción -->
+        <a href="https://ucsm.com/comprar" class="cta-button">Contratar ahora</a>
+    </div>
+
+</body>
+
+</html>
